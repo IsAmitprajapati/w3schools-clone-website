@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorials</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google Font Family poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!--Google font Family Source sans pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Google font family freckle face-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+                <div class="w3schools-logo">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png" />
+                </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn " id="Tutorial-btn">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#references" class="menu-btn " id="references-btn">
+                References
+                <i class="fa-solid fa-caret-down "></i>
+            </div>
+            <div href="#exercises" class="menu-btn " id="exercises-btn">
+                Exercises
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+            <a href="https://www.w3schools.com/videos/index.php" class="menu-btn" id="video-btn">
+                Videos
+            </a>
+
+            <!---mobile view menu-->
+            <div class="menu-btn" id="Menu-btn-Mobile">
+                Menu
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="toggleLightDark btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="toggleTranslate">
+                <i class="fa-solid fa-earth-europe"></i>
+            </div>
+            <div class="toggle_Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="https://www.w3schools.com/pro/index.php" class="btn btn-link bg-black" id="upgrade-btn">
+                Upgrade
+            </a>
+            <a href="https://campus.w3schools.com/collections/course-catalog" class="btn btn-link bg-pink"
+                id="getCertified">
+                Get Certified
+            </a>
+            <a href="https://www.w3schools.com/spaces/" class="btn btn-link bg-yellow" id="freeWebsite">
+                Free Website
+            </a>
+            <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
+                class="btn btn-link bg-green" id="login-btn">
+                Log in
+            </a>
+        </div>
+    </header>
+
+    <!--mobile menu bar-->
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <a href="" id="mobile-Nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <div href="#Tutorial" class="menu-btn-mobile_menu " id="tutorial_menuLink_mobile">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="Tutorial_menu_mobile">
+                    <h1>Tutorials</h1>
+                    <h2>html css</h2>
+                    <a href="#">slfkjdlskjfsdlfj</a>
+
+                </div>
+            </div>
+            <div href="#references" class="menu-btn-mobile_menu " id="references_menuLink_mobile">
+                References
+                <i class="fa-solid fa-caret-down "></i>
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="references_menu_mobile">
+                    <h1>Tutorials</h1>
+                    <h2>html css</h2>
+                    <a href="#">slfkjdlskjfsdlfj</a>
+
+                </div>
+            </div>
+            <div href="#exercises" class="menu-btn-mobile_menu " id="exercises_menuLink_mobile">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="exercises_menu_mobile">
+                    <h1>Tutorials</h1>
+                    <h2>html css</h2>
+                    <a href="#">slfkjdlskjfsdlfj</a>
+
+                </div>
+            </div>
+            <a href="https://campus.w3schools.com/collections/course-catalog" class="menu-btn-mobile_menu ">
+                Get Certified
+            </a>
+            <a href="https://www.w3schools.com/pro/index.php" class="menu-btn-mobile_menu ">
+                Upgrade
+            </a>
+            <a href="https://www.w3schools.com/spaces/" class="menu-btn-mobile_menu ">
+                Spaces
+            </a>
+            <a href="https://www.w3schools.com/videos/index.php" class="menu-btn-mobile_menu">
+                Videos
+            </a>
+            <a href="https://campus.w3schools.com/" class="menu-btn-mobile_menu">
+                Shop
+            </a>
+        </ul>
+    </div>
+
+    <!--nested navigation bar-->
+    <div class="nested-navigation-container nested_navigation_hidden" id="nested-navigation-container_id">
+        <div class="nested-navigation_container_close-btn" id="nested-navigation-close-Btn">
+            <button><i class="fa-solid fa-xmark" class="menu-btn"></i></button>
+        </div>
+
+        <div class="nested-navigation-container_content" id="nested-navigation-container-contentID">
+            <!---render the menu of all here -->
+        </div>
+    </div>
+
+
+    <!-------------------------------------------------------------------------------------->
+    <section class="section_Heading">
+        <div class="section_container">
+            <h1>Learn to Code</h1>
+            <p>With the world's largest web developer site.</p>
+            <div class="section_Heading_search">
+                <input type="text" placeholder="Search our tutorial, e.g. HTML" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a>
+        </div>
+        <svg style="background-color:#D9EEE1;" width="100%" height="100" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+        </svg>
+    </section>
+    <div class="svgBug"></div>
+
+    <section class="section_html">
+        <div class="section_left">
+            <h1>HTML</h1>
+            <p>The language for building web pages</p>
+            <a href="https://www.w3schools.com/html/default.asp" class="bg-green">Learn HTML</a>
+            <a href="https://www.w3schools.com/videos/index.php" class="bg-yellow">Video Tutorial</a>
+            <a href="https://www.w3schools.com/tags/default.asp" class="bg-black">HTML References</a>
+            <a href="https://campus.w3schools.com/collections/certifications/products/html-certificate"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>HTML Example :</h1>
+                <div class="editor" id="htmlCode">
+
+                </div>
+                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default"
+                    class="editor_btn">Try it Yourself</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_css">
+        <div class="section_left">
+            <h1>CSS</h1>
+            <p>The language for styling web pages</p>
+            <a href="https://www.w3schools.com/css/default.asp" class="bg-green">Learn CSS</a>
+            <a href="https://www.w3schools.com/cssref/index.php" class="bg-black">CSS References</a>
+            <a href="https://campus.w3schools.com/collections/certifications/products/css-certificate"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>CSS Example :</h1>
+                <div class="editor" id="cssCode">
+
+                </div>
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="editor_btn">Try it
+                    Yourself</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_javascript">
+        <div class="section_left">
+            <h1>JavaScript</h1>
+            <p>The language for programming web pages</p>
+            <a href="https://www.w3schools.com/css/default.asp" class="bg-green">Learn JavaScript</a>
+            <a href="https://www.w3schools.com/cssref/index.php" class="bg-white">JavaScript References</a>
+            <a href="https://campus.w3schools.com/collections/certifications/products/css-certificate"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>JavaScript Example :</h1>
+                <div class="editor" id="javaScriptCode">
+
+                </div>
+                <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default" class="editor_btn">Try it
+                    Yourself</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_python">
+        <div class="section_left">
+            <h1>Python</h1>
+            <p>A popular programming language</p>
+            <a href="https://www.w3schools.com/python/default.asp" class="bg-green">Learn Python</a>
+            <a href="https://www.w3schools.com/python/python_reference.asp" class="bg-black ">Python References</a>
+            <a href="https://campus.w3schools.com/collections/certifications/products/python-certificate"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>Python Example :</h1>
+                <div class="editor" id="pythonCode">
+
+                </div>
+                <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation"
+                    class="editor_btn">Try it Yourself</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_sql">
+        <div class="section_left">
+            <h1>SQL</h1>
+            <p>A language for accessing databases</p>
+            <a href="https://www.w3schools.com/sql/default.asp" class="bg-green">Learn SQL</a>
+            <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp" class="bg-black ">SQL References</a>
+            <a href="https://campus.w3schools.com/collections/certifications/products/sql-certificate"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="section_right">
+            <div class="editor_container">
+                <h1>SQL Example :</h1>
+                <div class="editor" id="SQLCode">
+
+                </div>
+                <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where" class="editor_btn">Try
+                    it Yourself</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <section class="courses_card_container">
+        <div class="courses_bigCard">
+            <div class="bg-pink">
+                <h2>PHP</h2>
+                <p>A web server programming language</p>
+                <a href="https://www.w3schools.com/php/default.asp">
+                    <button class="bg-black btn">Learn PHP</button>
+                </a>
+            </div>
+            <div class="bg-yellow">
+                <h2>jQuery</h2>
+                <p>A JS library for developing web pages</p>
+                <a href="https://www.w3schools.com/jquery/default.asp">
+                    <button class="bg-black btn">Learn jQuery</button>
+                </a>
+            </div>
+            <div class="bg-white">
+                <h2>Java</h2>
+                <p>A programming language</p>
+                <a href="https://www.w3schools.com/java/default.asp">
+                    <button class="bg-black btn">Learn Java</button>
+                </a>
+            </div>
+            <div class="bg-lightGreen">
+                <h2>C++</h2>
+                <p>A programming language</p>
+                <a href="https://www.w3schools.com/cpp/default.asp">
+                    <button class="bg-black btn">Learn C++</button>
+                </a>
+            </div>
+            <div class="bg-blue">
+                <h2>W3.CSS</h2>
+                <p>A CSS framework for faster and better responsive web pages</p>
+                <a href="https://www.w3schools.com/w3css/default.asp">
+                    <button class="bg-black btn">Learn W3.CSS</button>
+                </a>
+            </div>
+            <div class="bg-white">
+                <h2>Bootstrap</h2>
+                <p>A CSS framework for designing better web pages</p>
+                <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">
+                    <button class="bg-black btn">Learn Bootstrap</button>
+                </a>
+            </div>
+        </div>
+        <div class="courses_middleCard">
+            <a href="https://www.w3schools.com/c/index.php" class="bg-pink">
+                <h2>C</h2>
+            </a>
+            <a href="https://www.w3schools.com/cs/index.php" class="bg-yellow">
+                <h2>C#</h2>
+            </a>
+        </div>
+        <div class="courses_smallCard">
+            <a class="bg-white" href="https://www.w3schools.com/r/default.asp">R</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/kotlin/index.php">Kotlin</a>
+            <a class="bg-blue" href="https://www.w3schools.com/nodejs/default.asp">Node.js</a>
+            <a class="bg-pink" href="https://www.w3schools.com/react/default.asp">React</a>
+            <a class="bg-yellow" href="https://www.w3schools.com/js/js_json.asp">JSON</a>
+
+
+            <a class="bg-white" href="https://www.w3schools.com/angular/default.asp">Angular</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/mysql/default.asp">MySQL</a>
+            <a class="bg-blue" href="https://www.w3schools.com/xml/default.asp">XML</a>
+            <a class="bg-pink" href="https://www.w3schools.com/sass/default.php">Saas</a>
+            <a class="bg-yellow" href="https://www.w3schools.com/icons/default.asp">Icon</a>
+
+
+            <a class="bg-white" href="https://www.w3schools.com/css/css_rwd_intro.asp">RWD</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/graphics/default.asp">Graphic</a>
+            <a class="bg-blue" href="https://www.w3schools.com/graphics/svg_intro.asp">SVG</a>
+            <a class="bg-pink" href="https://www.w3schools.com/graphics/canvas_intro.asp">Canvas</a>
+            <a class="bg-yellow" href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">Raspberry Pi</a>
+
+
+            <a class="bg-white" href="https://www.w3schools.com/cybersecurity/index.php">Cyber Security</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/colors/default.asp">Colors</a>
+            <a class="bg-blue" href="https://www.w3schools.com/git/default.asp">Git</a>
+            <a class="bg-pink" href="https://www.w3schools.com/python/matplotlib_intro.asp">Matplotlib</a>
+
+
+            <a class="bg-yellow" href="https://www.w3schools.com/python/numpy/default.asp">Numpy</a>
+            <a class="bg-white" href="https://www.w3schools.com/python/pandas/default.asp">Pandas</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/python/scipy/index.php">Scipy</a>
+            <a class="bg-blue" href="https://www.w3schools.com/asp/default.asp">ASP</a>
+            <a class="bg-pink" href="https://www.w3schools.com/accessibility/index.php">Accessibility</a>
+
+            <a class="bg-yellow" href="https://www.w3schools.com/appml/default.asp">AppML</a>
+            <a class="bg-white" href="https://www.w3schools.com/go/index.php">Go</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/typescript/index.php">TypeScript</a>
+            <a class="bg-blue" href="https://www.w3schools.com/django/index.php">Django</a>
+            <a class="bg-pink" href="https://www.w3schools.com/mongodb/index.php">Mongodb</a>
+
+            <a class="bg-yellow" href="https://www.w3schools.com/statistics/index.php">Statistics</a>
+            <a class="bg-white" href="https://www.w3schools.com/datascience/default.asp">Data Science</a>
+            <a class="bg-lightGreen" href="https://www.w3schools.com/typingspeed/default.asp">Typing Speed</a>
+
+        </div>
+
+        <div class="courses_middleCard courses-middleCard-padding">
+            <a href="https://www.w3schools.com/excel/index.php" class="bg-blue">
+                <h2>Excel</h2>
+            </a>
+            <a href="https://www.w3schools.com/googlesheets/index.php" class="bg-yellow">
+                <h2>Google Sheets</h2>
+            </a>
+        </div>
+
+        <div class="courses_middleCard courses-middleCard-padding">
+            <a href="https://www.w3schools.com/python/python_ml_getting_started.asp" class="bg-pink">
+                <h2>Machine Learning</h2>
+            </a>
+            <a href="https://www.w3schools.com/ai/default.asp" class="bg-white">
+                <h2>Artificial Intelligence</h2>
+            </a>
+        </div>
+
+        <!-------------------code editor________________________________-->
+        <div class="codeEditor_part">
+            <h1>Code Editor</h1>
+            <p>With our online code editor, you can edit code and view the result in your browser</p>
+            <div class="codeEditor_part_container">
+                <div class="codeEditor_part_Container_Top">
+                    <div class="codeEditor_part_left">
+                        <div class="codeEditor_dot " style="background: red;"></div>
+                        <div class="codeEditor_dot" style="background: yellow;"></div>
+                        <div class="codeEditor_dot" style="background: green;"></div>
+                    </div>
+                    <div class="codeEditor_part_right">
+                        www.w3schools.com/tryit/
+                    </div>
+                </div>
+                <div class="codeEditor_condition">
+                    <div class="active" id="codeEditor_frontend">Frontend</div>
+                    <div class="" id="codeEditor_backend">Backend</div>
+                </div>
+                <img src="https://www.w3schools.com/codeeditor.gif" id="animationCodeEditorPart" />
+            </div>
+            <div class="codeEditor_Btn-Container">
+                <a href="https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello"
+                    class="bg-green btn btn-codeEditor_down">Try Frontend Editor (HTML/CSS/JS)</a>
+                <a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python"
+                    class="bg-yellow btn btn-codeEditor_down">Try Backend Editor (Python/PHP/Java/C..)</a>
+
+            </div>
+        </div>
+
+
+        <!---W3Schools Spaces-->
+        <div class="w3Schools_Space_container">
+            <h1>W3Schools Spaces</h1>
+            <p>Build your own website with W3Schools Spaces.</p>
+
+            <img src="https://www.w3schools.com/pro/pic_spaces_ide.png" />
+
+            <!---how it work-->
+            <img src="https://www.w3schools.com/how-spaces-works3.png" class="w3schools_space_image_howitwork" />
+
+            <a href="https://www.w3schools.com/spaces/index.html" class="bg-green getStartedNowBtn">Get Started Now</a>
+        </div>
+
+
+    </section>
+
+    <!--my learning-->
+    <section class="learning_section bg-lightGreen">
+        <div class="learning_container">
+            <h1>My Learning</h1>
+            <p>Track your progress with the free "My Learning" program here at W3Schools.</p>
+            <p>Log in to your account, and start earning points!</p>
+            <img src="https://www.w3schools.com/myl-green-off.png" />
+            <a href="https://my-learning.w3schools.com/" class="bg-green signupFree btn">Sign Up for free</a>
+
+        </div>
+    </section>
+
+    <!--Become a PRO User-->
+    <section class="bg-black becomeProUser">
+        <div class="becomeaPro-container">
+            <h1>Become a PRO User</h1>
+            <p class="becomePro_unlock">And unlock powerful features:</p>
+            <div class="becomeFeature_list">
+                <div class="becomeFeature_items">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" />
+                    <p>Browse W3Schools without ads</p>
+                </div>
+                <div class="becomeFeature_items">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" />
+                    <p>Website hosting (Includes <a href="https://www.w3schools.com/spaces/index.html">Spaces</a> PRO)
+                    </p>
+                </div>
+                <div class="becomeFeature_items">
+                    <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" />
+                    <p>Access to our <a href="https://www.w3schools.com/videos/index.php"> HTML Video Tutorial</a></p>
+                </div>
+            </div>
+            <button class="bg-green btn"><a href="">Learn More</a></button>
+        </div>
+    </section>
+
+
+    <!---color section-->
+    <div class="colorSection">
+        <div class="colorSection_container">
+            <h1>Color Picker</h1>
+            <p>W3Schools' famous color picker:</p>
+            <img src="https://www.w3schools.com/images/colorpicker.png" />
+        </div>
+    </div>
+
+    <!---code game-->
+    <section class="codeGame_container">
+        <h1>Code Game</h1>
+        <p>Help the Lynx collect pine cones!</p>
+        <img src="https://www.w3schools.com/images/w3lynx_200.png" />
+        <div class="codeGameBtn_container">
+            <button class="bg-black"><a href="https://www.w3schools.com/codegame/index.html">Play Game</a></button>
+        </div>
+    </section>
+
+    <!---excercise and quiz-->
+    <div class="section_exercise">
+        <div class="section_exercise_container">
+            <h1>Exercises and Quizzes</h1>
+            <p>Test your skills!</p>
+            <div class="section_exercise_quiz">
+                <a href="https://www.w3schools.com/exercises/index.php" class="bg-green">Exercises</a>
+                <a href="https://www.w3schools.com/quiztest/default.asp" class="bg-yellow">Quizzes</a>
+            </div>
+        </div>
+    </div>
+
+    <!--web Template-->
+    <div class="webTemplate">
+        <div class="web_template_container">
+            <h1>Web Templates</h1>
+            <p>Browse our selection of free responsive HTML Templates</p>
+            <a href="https://www.w3schools.com/w3css/w3css_templates.asp">
+                <img src="https://www.w3schools.com/w3css_templates.jpg" />
+            </a>
+            <a href="#" class="webTemplateLInk bg-black">Browse Templates</a>
+        </div>
+    </div>
+
+
+    <!--kick start-->
+    <section class="kickStart_section">
+        <div class="kickStart_container">
+            <h1>Kickstart your career</h1>
+            <h1>Get certified by completing a course</h1>
+            <a href="https://shop.w3schools.com/collections/course-catalog" class="bg-green">Get Started</a>
+        </div>
+        <div class="kickstart_certified">
+            <div class="kickstart_arrow">
+                <svg id="w3_cert_arrow" viewBox="0 0 170 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.7747 42.7064C9.7747 42.7064 19.5575 77.2951 44.4558 84.8113C62.0225 90.1142 81.0061 80.1196 77.791 68.3309C76.0904 62.0955 69.0574 62.4735 65.5106 65.8444C59.1003 71.9368 67.8591 89.7423 77.9205 96.1324C112.816 118.295 161.943 84.5867 161.943 84.5867"
+                        stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M159.804 93.8429L162.704 84.4917L152.715 80.8293" stroke="white" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </div>
+            <svg id="w3_cert_badge" data-name="w3_cert_badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #04aa6b;
+                        }
+
+                        .cls-2 {
+                            font-size: 23px;
+                        }
+
+                        .cls-2,
+                        .cls-3,
+                        .cls-4 {
+                            fill: #fff;
+                        }
+
+                        .cls-2,
+                        .cls-3 {
+                            font-family: RobotoMono-Medium, Roboto Mono;
+                            font-weight: 500;
+                        }
+
+                        .cls-3 {
+                            font-size: 20.08px;
+                        }
+                    </style>
+                </defs>
+                <circle class="cls-1" cx="150" cy="150" r="146.47" transform="translate(-62.13 150) rotate(-45)">
+                </circle><text class="cls-2" transform="translate(93.54 63.89) rotate(-29.5)">w</text><text
+                    class="cls-2" transform="translate(107.13 56.35) rotate(-20.8)">3</text><text class="cls-2"
+                    transform="matrix(0.98, -0.21, 0.21, 0.98, 121.68, 50.97)">s</text><text class="cls-2"
+                    transform="translate(136.89 47.84) rotate(-3.47)">c</text><text class="cls-2"
+                    transform="translate(152.39 47.03) rotate(5.12)">h</text><text class="cls-2"
+                    transform="translate(167.85 48.54) rotate(13.72)">o</text><text class="cls-2"
+                    transform="translate(182.89 52.35) rotate(22.34)">o</text><text class="cls-2"
+                    transform="matrix(0.86, 0.52, -0.52, 0.86, 197.18, 58.36)">l</text><text class="cls-2"
+                    transform="matrix(0.77, 0.64, -0.64, 0.77, 210.4, 66.46)">s</text><text class="cls-3"
+                    transform="translate(35.51 186.66) rotate(69.37)"> </text><text class="cls-3"
+                    transform="matrix(0.47, 0.88, -0.88, 0.47, 41.27, 201.28)">C</text><text class="cls-3"
+                    transform="matrix(0.58, 0.81, -0.81, 0.58, 48.91, 215.03)">E</text><text class="cls-3"
+                    transform="matrix(0.67, 0.74, -0.74, 0.67, 58.13, 227.36)">R</text><text class="cls-3"
+                    transform="translate(69.16 238.92) rotate(39.44)">T</text><text class="cls-3"
+                    transform="matrix(0.85, 0.53, -0.53, 0.85, 81.47, 248.73)">I</text><text class="cls-3"
+                    transform="translate(94.94 256.83) rotate(24.36)">F</text><text class="cls-3"
+                    transform="translate(109.34 263.09) rotate(16.83)">I</text><text class="cls-3"
+                    transform="translate(124.46 267.41) rotate(9.34)">E</text><text class="cls-3"
+                    transform="translate(139.99 269.73) rotate(1.88)">D</text><text class="cls-3"
+                    transform="translate(155.7 270.01) rotate(-5.58)"> </text><text class="cls-3"
+                    transform="translate(171.32 268.24) rotate(-13.06)"> </text><text class="cls-2"
+                    transform="translate(187.55 266.81) rotate(-21.04)">.</text><text class="cls-3"
+                    transform="translate(203.27 257.7) rotate(-29.24)"> </text><text class="cls-3"
+                    transform="translate(216.84 249.83) rotate(-36.75)"> </text><text class="cls-3"
+                    transform="translate(229.26 240.26) rotate(-44.15)">2</text><text class="cls-3"
+                    transform="translate(240.39 229.13) rotate(-51.62)">0</text><text class="cls-3"
+                    transform="translate(249.97 216.63) rotate(-59.17)">2</text><text class="cls-3"
+                    transform="matrix(0.4, -0.92, 0.92, 0.4, 257.81, 203.04)">2</text>
+                <path class="cls-4"
+                    d="M196.64,136.31s3.53,3.8,8.5,3.8c3.9,0,6.75-2.37,6.75-5.59,0-4-3.64-5.81-8-5.81h-2.59l-1.53-3.48,6.86-8.13a34.07,34.07,0,0,1,2.7-2.85s-1.11,0-3.33,0H194.79v-5.86H217.7v4.28l-9.19,10.61c5.18.74,10.24,4.43,10.24,10.92s-4.85,12.3-13.19,12.3a17.36,17.36,0,0,1-12.41-5Z">
+                </path>
+                <path class="cls-4"
+                    d="M152,144.24l30.24,53.86,14.94-26.61L168.6,120.63H135.36l-13.78,24.53-13.77-24.53H77.93l43.5,77.46.15-.28.16.28Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+
+    <!---How To Section-->
+    <section class="howtosection_section">
+        <div class="howtoSection_container">
+            <h1>How To Section</h1>
+            <p>Code snippets for HTML, CSS and JavaScript</p>
+            <p>For example, how to create a slideshow:</p>
+
+            <div class="codeEditor_part_container">
+                <div class="codeEditor_part_Container_Top">
+                    <div class="codeEditor_part_left">
+                        <div class="codeEditor_dot " style="background: red;"></div>
+                        <div class="codeEditor_dot" style="background: yellow;"></div>
+                        <div class="codeEditor_dot" style="background: green;"></div>
+                    </div>
+                    <div class="codeEditor_part_right">
+                        www.w3schools.com/howto/
+                    </div>
+                </div>
+                <div class="howtosection_ImageSlider">
+                    <div class="howtoSection_button">
+                        <button class="" id="imageSlidePreve"><i class="fa-solid fa-angle-left"></i></button>
+                        <button class="" id="imageSlideNext"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="howtosection_list">
+                        <div class="howtoSecton_item">
+                            <p>1/3</p>
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" />
+                            <p>Caption Text</p>
+                        </div>
+                        <div class="howtoSecton_item">
+                            <p>2/3</p>
+                            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" />
+                            <p>Caption Two</p>
+                        </div>
+                        <div class="howtoSecton_item">
+                            <p>3/3</p>
+                            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" />
+                            <p>Caption Three</p>
+                        </div>
+                    </div>
+                    <div class="howtosection_active_image">
+                        <div class="imageSlideActive" id="imageSlideActive1"></div>
+                        <div class="imageSlideActive" id="imageSlideActive2"></div>
+                        <div class="imageSlideActive" id="imageSlideActive3"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="howtosection_bottom">
+                <div class="verticalBox"></div>
+                <a href="https://www.w3schools.com/howto/default.asp">
+                    Learn How To
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="menu">
+                <a href="https://www.w3schools.com/quiztest/default.asp" id="topFooterMenu1">Quizzes</a>
+                <a href="https://www.w3schools.com/exercises/index.php" id="topFooterMenu2">Exercises</a>
+                <a href="https://shop.w3schools.com/collections/course-catalog" id="topFooterMenu3">Certificates</a>
+                <a href="https://www.w3schools.com/pro/index.php">Upgrade</a>
+                <a href="https://www.w3schools.com/spaces/index.html">Space</a>
+                <a href="https://support.w3schools.com/">Support</a>
+                <a href="https://campus.w3schools.com/pages/newsletter">Newsletter</a>
+            </div>
+            <div class="forumandAbout">
+                <a href="https://www.w3schools.com/forum/default.asp">Forum</a>
+                <a href="https://www.w3schools.com/about/default.asp">About</a>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <div class="footer_des">
+            <p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve
+                reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid
+                errors, but we cannot warrant full correctness of all content. While using this site, you agree to have
+                read and accepted our <a href="https://www.w3schools.com/about/about_copyright.asp">terms of use</a> <a href="https://www.w3schools.com/about/about_privacy.asp">cookie and privacy policy</a>
+                <a href="https://www.w3schools.com/about/about_copyright.asp">Copyright 1999-2022</a> by Refsnes Data. All Rights Reserved.</p>
+        </div>
+        <div class="footer_like">
+            <i class="fa-solid fa-thumbs-up"></i>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
